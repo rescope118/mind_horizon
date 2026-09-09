@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    height:600px;
+    background-color:rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+
+ul {
+    list-style: none;
+}
+
+.background_image {
+    margin: 0 auto;
+    margin-bottom:12px;
+    width: 600px;
+    height:600px;
+    display: flex;
+    right:100
+}

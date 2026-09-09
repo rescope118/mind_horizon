@@ -1,0 +1,36 @@
+main {
+    height:700px;
+    background-color:rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    position:relative;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-600px); }
+  100% { transform: translateX(-1200px); }
+}
+
+.profilContainer {
+    display:flex;
+    position:relative;
+    overflow: hidden;
+    width: 600px;
+    left:500px;
+}
+
+.profilList {
+    
+    position: relative;
+  animation: slide 6s infinite;
+  width:600px;
+  right:50px;
+}
